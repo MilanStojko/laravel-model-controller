@@ -20,7 +20,7 @@
                 <p>VOTE: {{ $valore['vote'] }}</p>
             </div>
         @endforeach
-    </main>
+    </main> FINITO!!!!
 </body>
 
 </html>
