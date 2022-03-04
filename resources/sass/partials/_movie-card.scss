@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    .film-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 22%;
+        height: 300px;
+        margin: 25px 5px;
+        padding: 10px;
+        border: 1px solid black;
+    }
+}

@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+
+.container .film-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 22%;
+  height: 300px;
+  margin: 25px 5px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* ------------------------
+RESET
+------------------------ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------------
+GLOBALS
+------------------------ */
+
+/* ------------------------
+CONTAINERS
+------------------------ */
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* ------------------------
+TYPO
+------------------------ */
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
